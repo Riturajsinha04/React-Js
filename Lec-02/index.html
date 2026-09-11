@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zoro</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <h1>Rituraj</h1>
+    <p>Rituraj is a software engineer and a web developer. He is passionate about building web applications and learning new technologies.</p>
+    
+    <script type="module">
+      import React from 'react'
+      import ReactDOM from 'react-dom/client'
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      console.log(root);
+      const heading=React.createElement('h1',{},'react is starting');
+      console.log(heading);
+      //root.render(heading);
+      root.render(heading);
+
+
+      
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
